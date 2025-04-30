@@ -1,0 +1,60 @@
+name: tienda_ropa_flutter
+description: A Flutter project
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  font_awesome_flutter: ^10.7.0
+  carousel_slider: ^4.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    # Enfoque global de incluir todos los archivos de assets (más simple y efectivo)
+    - assets/
+    - assets/images/
+    # Archivos específicos para asegurar que están incluidos
+    - assets/images/momo_logo_4x.png
+    - assets/images/momo_isotipo.png
+    - assets/images/placeholder.png
+    # Incluir todos los directorios de categorías y subcategorías
+    - assets/images/Ropa/
+    - assets/images/Accesorios/
+    - assets/images/Accesorios/Sombreros/
+    - assets/images/Accesorios/Lentes/
+    - assets/images/Accesorios/Gorros/
+    - assets/images/Bolsos/
+    - assets/images/Calzado/
+    - assets/images/Calzado/Botas/
+    - assets/images/Calzado/Sandalias/
+    - assets/images/Calzado/Zapatillas/
+    # Incluir todas las subcategorías (con ambas variantes de mayúsculas/minúsculas)
+    - assets/images/Ropa/blusas/
+    - assets/images/Ropa/calcetines/
+    - assets/images/Ropa/conjuntos/
+    - assets/images/Ropa/faldas/
+    - assets/images/Ropa/lenceria/
+    - assets/images/Ropa/pantalones/
+    - assets/images/Ropa/pijamas/
+    - assets/images/Ropa/shorts/
+    - assets/images/Ropa/vestidos/
+    # Variantes con primera letra mayúscula para manejo de subcategorías
+    - assets/images/Ropa/Blusas/
+    - assets/images/Ropa/Calcetines/
+    - assets/images/Ropa/Conjuntos/
+    - assets/images/Ropa/Faldas/
+    - assets/images/Ropa/Lenceria/
+    - assets/images/Ropa/Pantalones/
+    - assets/images/Ropa/Pijamas/
+    - assets/images/Ropa/Shorts/
+    - assets/images/Ropa/Vestidos/
